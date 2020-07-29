@@ -6,6 +6,8 @@
 		<title>youtume-iframe-api</title>
 		<meta name="description" content="youtume-iframe-api">
 		<meta name="author" content="lufemas">
+		<meta name="google-signin-client_id" content="98135616017-hrhcokbio5fupf00srliiume94s7igtl.apps.googleusercontent.com">
+
 		<script src="https://kit.fontawesome.com/fd1beb02b6.js" crossorigin="anonymous"></script>
 		<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 		<link rel="stylesheet" href="css/reset.css">
@@ -27,7 +29,9 @@
 		</header>
 
 		<main class="jr flex-col center w80 mh-auto">
-		
+			
+			<div class="g-signin2 jr mt-2" data-onsuccess="onSignIn"></div>
+			
 			<div class="jr mt-2">
 				<label class="jr mt-2" for="video-id">Video ID</label>
 				<input type="text" name="video-id" id="video-id" value="xJJsoquu70o" />
@@ -56,7 +60,8 @@
         <li class="jr mt-05 text-center">Take a look on my other projects <strong><a href="https://github.com/lufemas" target="_blank">JR.Maschietto</a></strong></li>
         <li class="jr mt-05 text-center">You can contact me on my web page <strong><a href="http://jrmaschietto.com" target="_blank">JRmaschietto.com</a></strong></li>
       </ul>
-    </footer>
+		</footer>
+		<script src="https://apis.google.com/js/platform.js" async defer></script>
 		<script src="js/index.js"></script>
 	</body>
 </html>
