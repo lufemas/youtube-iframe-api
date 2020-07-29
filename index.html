@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>youtume-iframe-api</title>
+		<meta name="description" content="youtume-iframe-api">
+		<meta name="author" content="lufemas">
+		<script src="https://kit.fontawesome.com/fd1beb02b6.js" crossorigin="anonymous"></script>
+		<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/jr.css">
+		<link rel="stylesheet" href="css/index.css">
+	</head>
+	<body>
+
+		<header class="main-header jr m-0 pt-1 pb-1">
+			<div class="jr w100 w-m-80 mh-auto flex-row between">
+				<h1 class="jr m-0">YouTube iFrame Api</h1>
+
+				<div class="jr flex-col center">
+					<a href="https://github.com/lufemas/youtube-iframe-api"><i class="fab fa-github"></i> Fork Me</a>
+					<a class="jr mt-05" target="_blank" href="http://jrmaschietto.com"><strong>JR</strong>.maschietto </a>
+				</div>
+
+			</div>
+		</header>
+
+		<main class="jr flex-col center w80 mh-auto">
+		
+			<div class="jr mt-2">
+				<label class="jr mt-2" for="video-id">Video ID</label>
+				<input type="text" name="video-id" id="video-id" value="xJJsoquu70o" />
+				<button class="jr button-primary mt-05" id='load-video-btn'>Load Video</button>
+			</div>
+
+			<div class="jr mt-2">
+				<label class="jr mt-2" for="playlist-id">Playlist ID</label>
+				<input type="text" name="playlist-id" id="playlist-id" value="PL0TNtee7vPWPkVek6S9ehTaHnUctVIn0u" />
+				<button class="jr button-primary mt-05" id='load-playlist-btn'>Load Playlist</button>
+
+			</div>
+
+			<h2 class="jr m-0 mt-3" id="video-title">No video playing</h2>
+			<div class="jr mt-1" id="player"></div>
+
+			<ul id="list-grid" class="jr list-raw p-1 mt-2">
+
+			</ul>
+
+		</main>
+
+		<footer class="jr card mt-2 pb-2 pt-1">
+      <ul class="jr flex-col center p-0">
+        <li class="jr mt-05 text-center">This page uses <strong><a href="https://github.com/lufemas/jr-css" target="_blank">JR.css</a></strong></li>
+        <li class="jr mt-05 text-center">Take a look on my other projects <strong><a href="https://github.com/lufemas" target="_blank">JR.Maschietto</a></strong></li>
+        <li class="jr mt-05 text-center">You can contact me on my web page <strong><a href="http://jrmaschietto.com" target="_blank">JRmaschietto.com</a></strong></li>
+      </ul>
+    </footer>
+		<script src="js/index.js"></script>
+	</body>
+</html>

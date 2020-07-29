@@ -1,0 +1,32 @@
+header{
+  background-color: var(--jr-btn-primary-bg-color);
+  color: white;
+}
+
+header a{
+  color: white;
+  text-decoration: none;
+}
+
+input[type=text]{
+  padding: 1em;
+  outline: none;
+  border-radius: .2em;
+  border: solid 1px #666;
+  text-align: center;
+  font-family: monospace;
+  /* width: 50%; */
+}
+
+footer a{
+  color:  var(--jr-btn-primary-bg-color);
+}
+
+iframe{
+  border-radius: .5em;
+}
+
+#list-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
